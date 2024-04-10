@@ -1,7 +1,7 @@
 {
     "name": "client",
     "scripts": {
-        "install": "yarn install & (cd server && yarn install) & (cd client && yarn install)",
+        "install-all": "yarn && cd server && yarn && cd ../client && yarn",
         "dev": "(concurrently \"cd server && yarn dev && wait-on http://localhost:8001 && wait-on http://localhost:8002\" \"cd client && yarn dev\")"
     },
     "dependencies": {
