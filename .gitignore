@@ -1,0 +1,10 @@
+.idea/
+server/package-lock.json
+server/yarn.lock
+server/node_modules
+client/yarn.lock
+client/package-lock.json
+node_modules
+client/node_modules
+client/yarn-error.log
+yarn.lock

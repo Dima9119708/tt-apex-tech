@@ -1,0 +1,11 @@
+{
+    "name": "client",
+    "scripts": {
+        "install": "yarn install & (cd server && yarn install) & (cd client && yarn install)",
+        "dev": "(concurrently \"cd server && yarn dev && wait-on http://localhost:8001 && wait-on http://localhost:8002\" \"cd client && yarn dev\")"
+    },
+    "dependencies": {
+        "concurrently": "^8.2.2",
+        "wait-on": "^7.2.0"
+    }
+}
