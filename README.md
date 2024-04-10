@@ -23,7 +23,7 @@ git clone https://github.com/Dima9119708/tt-apex-tech
 
 2. Install dependencies
 ```bash
-yarn install
+yarn install-all
 ```
 
 3. Start the project
